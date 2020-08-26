@@ -1,3 +1,10 @@
+## Inspire Random Quote Machine
+
+This app produces random programming quotes from famous programmers.
+Each quote is presented with a different randomly selected color scheme and font.
+
+Select for a [Demo](https://nhope123.github.io/inspire/) of the app. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
