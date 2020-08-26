@@ -91,7 +91,11 @@ class Inspire extends React.Component{
              style={{ backgroundColor: this.state.color, color: this.state.textColor}}>Next Quote</div> {/* Next quote selection buttom */}
           </div>
         </section>
-        <div id="creator" style={{color: this.state.textColor}}>by Nial</div> {/* Creator citation */}
+        <div id="creator" >
+          <a target='_blank' rel="noopener noreferrer" style={{color: this.state.textColor, textDecoration:'none'}} href='https://github.com/nhope123/inspire'  >
+            by Nial
+          </a>
+        </div> {/* Creator citation, with github code */}
       </div>
     );
   }
