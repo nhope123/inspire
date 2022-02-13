@@ -10,9 +10,6 @@ export const quoteMe = () => {
   if (betterWithBlack.includes(randomColor)) { fontColor = 'black'; }
   else {  fontColor = 'white'; }
 
-  console.log('num', quotes[5].title);
-  
-
   return ({
     title: quotes[randomNumber].title,
     author: quotes[randomNumber].author,
@@ -21,7 +18,3 @@ export const quoteMe = () => {
     color: fontColor,
   });
 }
-
-/* 8, 10, 6, 1,11, 7
-  ,2,3,4,5,,, ,9, ,
-*/
