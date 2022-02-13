@@ -5,90 +5,12 @@
   font-family: 'Roboto', sans-serif;
   font-family: 'Sirin Stencil', cursive;
   font-family: monospace;
-
-
 */
 
 *{box-sizing: border-box;}
+
 body,html {
   margin: 0;
   width: 100vw;
   height: 100vh;
-
-}
-/* Container that hold all the elements */
-.react-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-/* Container that holds the quote */
-#quote-box{
-  display: block;
-  padding: 15px;
-  max-width: 750px;
-  height: auto;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
-  border-radius: 10px;
-  background-color: white;
-  border: 0;
-  z-index: 3;
-}
-#text, #author{
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-#author{
-  display: block;
-  width: 100%;
-  text-align: right;
-  position: relative;
-}
-.interact{
-  display: block;
-  position: relative;
-  width: 100%;
-  margin-top: 5px;
-
-}
-#tweet-quote{
-  display: block;
-  float: left;
-  font-size: 22px;
-}
-/* next button rules */
-#new-quote{
-  display: block;
-  float: right;
-  padding: 6px 10px;
-  width: auto;
-  border: 0;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 16px;
-}
-/* Rules for the credit */
-#creator{
-  display: block;
-  margin-top: 22px;
-  font-size: 16px;
-  font-style: italic;
-  color: white;
-  font-weight: bold;
-}
-/* Rules for devices less tahn 751px */
-@media screen and (max-width: 750px) {
-  #quote-box{
-    width: 90%;
-  }
 }
