@@ -22,6 +22,23 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/inspire-random-quote-machine.git
+   git clone https://github.com/nhope123/inspire.git
+2. Navigate to the project directory:
+   ```bash
+    cd inspire
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+5. Open the app in your browser:
+   - http://localhost:3000
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Acknowledgements
+- Quotes sourced from various famous programmers.
+- Random color and font generators inspired by online resources.
 
