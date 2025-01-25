@@ -34,6 +34,8 @@
    npm start
 5. Open the app in your browser:
    - http://localhost:3000
+## 📸 Screenshots
+![screenshot](./public/screenshot.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
